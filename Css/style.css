@@ -1,0 +1,132 @@
+body {
+    color: #bfc1c8;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+   /* background: #1e202b;*/
+}
+.menu  li
+{
+    padding-left: 25px;
+    padding-right: 25px;
+    
+}
+
+.site-title {
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-size: 1.1428571429em;
+    color: white;
+}
+.header
+{
+    
+    width: 100%;
+    height: 100vh;    
+    
+    background-image: url("../images/weather.jpg");
+
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.layer
+{
+    width: 100%;
+    height: 75vh;
+    background:rgba(0,0,0,0.5);
+    position:absolute;
+    left:0;
+    right: 0;
+    top:0;
+    bottom:0;
+
+}
+.degree {
+    font-size: 24px;
+    font-size: 1.7142857143em;
+    color: white;
+    font-weight: 700;
+}
+.find-location
+{
+    display: inline-block;
+    position: relative;
+    overflow: hidden; 
+}
+ input[type="text"] {
+  
+    padding: 20px 50px 20px 20px;
+    background: #1e202b;
+
+    color: white;
+    width: 700px;
+   
+}
+ .btn
+{
+    position:absolute;
+    background: #009ad8;
+    color: white;
+    width: 100px;
+    right:5;
+    top:10px;
+    
+}
+
+#forecast
+{
+background:  #1e202b;
+opacity: 0.8; 
+padding-left: 10px;
+
+
+}
+
+
+#forecast-afterOneDay
+{
+    background:  #1e202b;
+    opacity: 0.8; 
+   text-align: center; 
+}
+
+#forecast-aftertwoDay
+{
+    background:  #1e202b;
+    opacity: 0.8; 
+   text-align: center; 
+}
+.forecast-header ,.degree-info
+{
+
+display:flex;
+justify-content: space-between;
+
+}
+
+.day, .date
+{
+   
+    padding: 7px;
+}
+
+.location
+{
+    padding-top: 10px;
+    font-size:40px;
+
+}
+.degree .num
+{
+    font-size:60px;
+}
+.custom {
+    color: #009ad8;
+    margin: 20px 0;
+}
+span {
+    margin-right: 20px;
+}
